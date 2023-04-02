@@ -1,0 +1,38 @@
+*{
+    box-sizing: border-box;
+    padding: 0%;
+    margin: 0%;
+}
+.box{
+   width: 50px;
+   height: 50px;
+  background-color: blueviolet;
+  margin: 15px;
+}
+.flexbox{
+    background-color: blue;
+    width: 900px;
+    height: 900px;
+display: flex;
+justify-content: space-between;
+}
+.box2{
+    width: 500px;
+    height: 500px;
+    background-color: fuchsia;
+    margin: 15px;
+  
+}
+.box:hover{
+    background-color: red;
+    background-image: url(./free-icon-smile-8417733.png);
+    background-repeat: no-repeat;
+    background-size: 100%;
+    background-position: center;
+    
+   }
+   .box2:hover{
+    background-color: green;
+    background-image: url(./free-icon-smile-8417733.png);
+   }
+   
